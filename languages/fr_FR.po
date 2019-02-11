@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Happycula Custom User Pages\n"
+"POT-Creation-Date: 2019-02-11 20:56+0100\n"
+"PO-Revision-Date: 2019-02-11 21:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: Happycula <yann+wordpress@happycula.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-happycula-custom-user-pages-admin.php:83
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/class-happycula-custom-user-pages-admin.php:96
+#: admin/partials/happycula-custom-user-pages-admin-settings.php:16
+msgid "Happycula Custom User Pages Settings"
+msgstr "Paramètres de Happycula Pages Utilisateur Personnalisées"
+
+#: admin/class-happycula-custom-user-pages-admin.php:97
+msgid "Custom User Pages"
+msgstr "Pages Utilisateur Personnalisées"
+
+#: admin/class-happycula-custom-user-pages-admin.php:128
+msgid "Pages"
+msgstr "Pages"
+
+#: admin/class-happycula-custom-user-pages-admin.php:134
+msgid "Sign in page"
+msgstr "Page de connexion"
+
+#: admin/class-happycula-custom-user-pages-admin.php:142
+msgid "After sign in, redirect to page"
+msgstr "Après connexion, rediriger vers la page"
+
+#: admin/class-happycula-custom-user-pages-admin.php:150
+msgid "After sign out, redirect to page"
+msgstr "Après déconnexion, rediriger vers la page"
+
+#: admin/class-happycula-custom-user-pages-admin.php:158
+msgid "Registration page"
+msgstr "Page d'inscription"
+
+#: admin/class-happycula-custom-user-pages-admin.php:166
+msgid "Lost password page"
+msgstr "Page de mot de passe perdu"
+
+#: admin/class-happycula-custom-user-pages-admin.php:174
+msgid "Reset password page"
+msgstr "Page de réinitialisation du mot de passe"
+
+#: admin/class-happycula-custom-user-pages-admin.php:182
+msgid "Edit profile page"
+msgstr "Page de modification du profil"
+
+#: admin/class-happycula-custom-user-pages-admin.php:190
+msgid "Account page"
+msgstr "Page du compte utilisateur"
+
+#: admin/class-happycula-custom-user-pages-admin.php:199
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: admin/class-happycula-custom-user-pages-admin.php:205
+msgid "Site key"
+msgstr "Clé site"
+
+#: admin/class-happycula-custom-user-pages-admin.php:213
+msgid "Secret key"
+msgstr "Clé secrète"
+
+#: admin/class-happycula-custom-user-pages-admin.php:240
+msgid ""
+"Enter your Google reCAPTCHA keys (optional). At the moment only <a href="
+"\"https://developers.google.com/recaptcha/docs/display\" target=\"_blank"
+"\">reCAPTCHA v2 checkbox</a> is supported."
+msgstr ""
+"Entrez vos clés Google reCAPTCHA (optionnel). Pour l'instant, seul le <a "
+"href=\"https://developers.google.com/recaptcha/docs/display\" target=\"_blank"
+"\">reCAPTCHA v2</a> est supporté."
+
+#: includes/class-happycula-custom-user-pages-activator.php:29
+#: includes/class-happycula-custom-user-pages-uninstaller.php:41
+msgid "account"
+msgstr "compte"
+
+#: includes/class-happycula-custom-user-pages-activator.php:30
+msgid "My account"
+msgstr "Mon compte"
+
+#: includes/class-happycula-custom-user-pages-activator.php:33
+#: includes/class-happycula-custom-user-pages-uninstaller.php:42
+msgid "sign-in"
+msgstr "connexion"
+
+#: includes/class-happycula-custom-user-pages-activator.php:34
+msgid "Sign In"
+msgstr "Connexion"
+
+#: includes/class-happycula-custom-user-pages-activator.php:37
+#: includes/class-happycula-custom-user-pages-uninstaller.php:43
+msgid "register"
+msgstr "inscription"
+
+#: includes/class-happycula-custom-user-pages-activator.php:38
+#: public/partials/happycula-custom-user-pages-login-form.php:49
+#: public/partials/happycula-custom-user-pages-register-form.php:45
+msgid "Register"
+msgstr "Inscription"
+
+#: includes/class-happycula-custom-user-pages-activator.php:41
+#: includes/class-happycula-custom-user-pages-uninstaller.php:44
+msgid "lost-password"
+msgstr "mot-de-passe-perdu"
+
+#: includes/class-happycula-custom-user-pages-activator.php:42
+#: public/partials/happycula-custom-user-pages-login-form.php:48
+#: public/partials/happycula-custom-user-pages-register-form.php:49
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié?"
+
+#: includes/class-happycula-custom-user-pages-activator.php:45
+#: includes/class-happycula-custom-user-pages-uninstaller.php:45
+msgid "reset-password"
+msgstr "reinitialiser-mot-de-passe"
+
+#: includes/class-happycula-custom-user-pages-activator.php:46
+msgid "Reset your password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: includes/class-happycula-custom-user-pages-activator.php:49
+#: includes/class-happycula-custom-user-pages-uninstaller.php:46
+msgid "edit-profile"
+msgstr "modifier-profil"
+
+#: includes/class-happycula-custom-user-pages-activator.php:50
+#: public/partials/happycula-custom-user-pages-account.php:15
+msgid "Edit my profile"
+msgstr "Modifier mon profil"
+
+#: public/class-happycula-custom-user-pages-public.php:732
+#, php-format
+msgid "No \"%s\" template found."
+msgstr "Aucun template \"%s\" trouvé."
+
+#: public/class-happycula-custom-user-pages-public.php:760
+msgid "You do have an email address, right?"
+msgstr "Vous avez bien une adresse email ?"
+
+#: public/class-happycula-custom-user-pages-public.php:762
+msgid "You need to enter a password to sign in."
+msgstr "Vous devez saisir votre mot de passe pour vous connecter."
+
+#: public/class-happycula-custom-user-pages-public.php:767
+#, php-format
+msgid ""
+"The username and/or password you entered wasn't quite right. <a "
+"href='%s'>Did you forget your password?</a>"
+msgstr ""
+"Le nom d'utilisateur et/ou le mot de passe que vous avez saisis ne "
+"correspondent pas. <a href='%s'>Avez-vous oublié votre mot de passe ?</a>"
+
+#: public/class-happycula-custom-user-pages-public.php:772
+msgid "You need to enter your firstname."
+msgstr "Vous devez saisir votre prénom."
+
+#: public/class-happycula-custom-user-pages-public.php:774
+msgid "You need to enter your lastname."
+msgstr "Vous devez saisir votre nom."
+
+#: public/class-happycula-custom-user-pages-public.php:776
+msgid "The email address you entered is not valid."
+msgstr "L'adresse email saisie n'est pas valide."
+
+#: public/class-happycula-custom-user-pages-public.php:778
+msgid "An account already exists with this email address."
+msgstr "Un compte avec cette adresse email existe déjà."
+
+#: public/class-happycula-custom-user-pages-public.php:780
+msgid "Registering new users is currently not allowed."
+msgstr "L'inscription n'est pas autorisée actuellement."
+
+#: public/class-happycula-custom-user-pages-public.php:782
+msgid "The Google reCAPTCHA check failed. Are you a robot?"
+msgstr "La vérification Google reCAPTCHA a échoué. Vous êtes un robot ?"
+
+#: public/class-happycula-custom-user-pages-public.php:785
+msgid "There are no users registered with this email address."
+msgstr "Aucun utilisateur avec cette adresse email."
+
+#: public/class-happycula-custom-user-pages-public.php:788
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+"Le lien de réinitialisation du mot de passe que vous avez utilisé n'est plus "
+"valide."
+
+#: public/class-happycula-custom-user-pages-public.php:790
+msgid "The two passwords you entered don't match."
+msgstr "Les 2 mots de passe doivent être identiques."
+
+#: public/class-happycula-custom-user-pages-public.php:792
+msgid "You need to enter a new password."
+msgstr "Vous devez saisir un nouveau mot de passe."
+
+#: public/class-happycula-custom-user-pages-public.php:797
+msgid "An unknown error occurred. Please try again later."
+msgstr "Une erreur inconnue est survenue. Merci de réessayer ultérieurement."
+
+#: public/partials/happycula-custom-user-pages-account.php:16
+msgid "Sign out"
+msgstr "Déconnexion"
+
+#: public/partials/happycula-custom-user-pages-edit-profile-form.php:32
+#: public/partials/happycula-custom-user-pages-register-form.php:29
+msgid "Firstname"
+msgstr "Prénom"
+
+#: public/partials/happycula-custom-user-pages-edit-profile-form.php:36
+#: public/partials/happycula-custom-user-pages-register-form.php:33
+msgid "Lastname"
+msgstr "Nom"
+
+#: public/partials/happycula-custom-user-pages-edit-profile-form.php:40
+#: public/partials/happycula-custom-user-pages-resetpassword-form.php:27
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: public/partials/happycula-custom-user-pages-edit-profile-form.php:45
+msgid "Confirm your new password"
+msgstr "Confirmer votre nouveau mot de passe"
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:19
+msgid "You are already signed in."
+msgstr "Vous êtes déjà connecté."
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:21
+msgid "Where do you want to go next?"
+msgstr "Que souhaitez-vous faire ?"
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:22
+msgid "Go to my account"
+msgstr "Aller à mon compte"
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:23
+msgid "Go to homepage"
+msgstr "Aller à la page d'accueil"
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:25
+msgid "Go to admin"
+msgstr "Aller à l'admin"
+
+#: public/partials/happycula-custom-user-pages-logged-in.php:29
+#, php-format
+msgid "Not %1$s? <a href=\"%2$s\">Sign out</a>"
+msgstr "Vous n'êtes pas %1$s ? <a href=\"%2$s\">Se déconnecter</a>"
+
+#: public/partials/happycula-custom-user-pages-login-form.php:18
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: public/partials/happycula-custom-user-pages-login-form.php:19
+msgid "Password"
+msgstr "Mot de passe"
+
+#: public/partials/happycula-custom-user-pages-login-form.php:20
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: public/partials/happycula-custom-user-pages-login-form.php:21
+#: public/partials/happycula-custom-user-pages-register-form.php:48
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: public/partials/happycula-custom-user-pages-login-form.php:35
+msgid ""
+"You have successfully registered. We have emailed your password to the email "
+"address you provided."
+msgstr ""
+"Votre inscription est validée. Nous avons envoyé un email contenant votre "
+"mot de passe à l'adresse que vous avez indiquée."
+
+#: public/partials/happycula-custom-user-pages-login-form.php:39
+msgid "Check your email for a link to reset your password."
+msgstr ""
+"Vérifiez vos emails pour obtenir un lien de réinitialisation de votre mot de "
+"passe."
+
+#: public/partials/happycula-custom-user-pages-login-form.php:43
+msgid "Your password has been updated."
+msgstr "Votre mot de passe a été mis à jour."
+
+#: public/partials/happycula-custom-user-pages-lostpassword-email.php:14
+#, php-format
+msgid "Hello %s!"
+msgstr "Bonjour %s !"
+
+#: public/partials/happycula-custom-user-pages-lostpassword-email.php:18
+#, php-format
+msgid "We received a request to reset your password on our site \"%s\"."
+msgstr ""
+"Nous avons reçu une demande de réinitialisation de votre mot de passe sur "
+"notre site \"%s\"."
+
+#: public/partials/happycula-custom-user-pages-lostpassword-email.php:20
+msgid ""
+"If this was a mistake or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"Si c'était une erreur ou si vous n'avez pas fait cette demande de "
+"réinitialisation, vous pouvez ignorer cet email et rien ne se passera."
+
+#: public/partials/happycula-custom-user-pages-lostpassword-email.php:23
+msgid "To reset your password, visit the following link:"
+msgstr "Pour réinitialiser votre mot de passe, cliquez sur le lien suivant :"
+
+#: public/partials/happycula-custom-user-pages-lostpassword-email.php:28
+#: public/partials/happycula-custom-user-pages-password-changed-email.php:28
+msgid "See you soon!"
+msgstr "A très bientôt !"
+
+#: public/partials/happycula-custom-user-pages-lostpassword-form.php:23
+msgid ""
+"Enter your email address and we'll send you a link to pick a new password."
+msgstr ""
+"Saisissez votre adresse email et nous vous enverrons un lien pour choisir un "
+"nouveau mot de passe."
+
+#: public/partials/happycula-custom-user-pages-lostpassword-form.php:27
+#: public/partials/happycula-custom-user-pages-register-form.php:25
+msgid "Email"
+msgstr "Email"
+
+#: public/partials/happycula-custom-user-pages-lostpassword-form.php:30
+#: public/partials/happycula-custom-user-pages-resetpassword-form.php:35
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+#: public/partials/happycula-custom-user-pages-password-changed-email.php:20
+msgid "Hello ###USERNAME###!"
+msgstr "Bonjour ###USERNAME### !"
+
+#: public/partials/happycula-custom-user-pages-password-changed-email.php:23
+msgid "Your password was changed on ###SITENAME###."
+msgstr "Votre mot de pas a été modifié sur ###SITENAME###."
+
+#: public/partials/happycula-custom-user-pages-password-changed-email.php:25
+msgid ""
+"If you did not change your password, please contact the site administrator "
+"at ###ADMIN_EMAIL### as soon as possible."
+msgstr ""
+"Si vous n'avez pas changé votre mot de passe, merci de contacter au plus "
+"vite l'administrateur du site à l'adresse ###ADMIN_EMAIL###."
+
+#: public/partials/happycula-custom-user-pages-register-form.php:36
+msgid "Registration confirmation will be emailed to you."
+msgstr "Une confirmation de votre inscription vous sera envoyé par email."
+
+#: public/partials/happycula-custom-user-pages-resetpassword-form.php:31
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
