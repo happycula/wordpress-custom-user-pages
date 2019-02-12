@@ -15,15 +15,15 @@
 
 
 <?php // translators: 1. Site name. ?>
-<?php echo sprintf( __( 'We received a request to reset your password on our site "%s".', 'happycula-custom-user-pages' ), esc_html( get_bloginfo( 'name' ) ) ); ?>
+<?php echo sprintf( __( 'We received a request to reset your password on our site "%s".', 'happycula-custom-user-pages' ), get_bloginfo( 'name' ) ); ?>
 
 <?php _e( 'If this was a mistake or you didn\'t ask for a password reset, just ignore this email and nothing will happen.', 'happycula-custom-user-pages' ); ?>
 
 
-<?php esc_html_e( 'To reset your password, visit the following link:', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'To reset your password, visit the following link:', 'happycula-custom-user-pages' ); ?>
 
 <?php echo site_url( 'wp-login.php?action=rp&key=' . $vars['key'] . '&login=' . rawurlencode( $vars['login'] ) ); ?>
 
 
-<?php esc_html_e( 'See you soon!', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'See you soon!', 'happycula-custom-user-pages' ); ?>
 <?php

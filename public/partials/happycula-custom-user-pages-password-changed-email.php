@@ -17,13 +17,13 @@
  */
 
 ?>
-<?php esc_html_e( 'Hello ###USERNAME###!', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'Hello ###USERNAME###!', 'happycula-custom-user-pages' ); ?>
 
 
-<?php esc_html_e( 'Your password was changed on ###SITENAME###.', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'Your password was changed on ###SITENAME###.', 'happycula-custom-user-pages' ); ?>
 
-<?php esc_html_e( 'If you did not change your password, please contact the site administrator at ###ADMIN_EMAIL### as soon as possible.', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'If you did not change your password, please contact the site administrator at ###ADMIN_EMAIL### as soon as possible.', 'happycula-custom-user-pages' ); ?>
 
 
-<?php esc_html_e( 'See you soon!', 'happycula-custom-user-pages' ); ?>
+<?php _e( 'See you soon!', 'happycula-custom-user-pages' ); ?>
 <?php
