@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Happycula Custom User Pages\n"
-"POT-Creation-Date: 2019-02-11 20:56+0100\n"
-"PO-Revision-Date: 2019-02-11 21:17+0100\n"
+"POT-Creation-Date: 2019-02-19 22:53+0100\n"
+"PO-Revision-Date: 2019-02-19 22:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: Happycula <yann+wordpress@happycula.fr>\n"
 "Language: fr_FR\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _e;__;esc_html_e\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_attr_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/class-happycula-custom-user-pages-admin.php:83
@@ -111,7 +111,7 @@ msgid "register"
 msgstr "inscription"
 
 #: includes/class-happycula-custom-user-pages-activator.php:38
-#: public/partials/happycula-custom-user-pages-login-form.php:49
+#: public/partials/happycula-custom-user-pages-login-form.php:52
 #: public/partials/happycula-custom-user-pages-register-form.php:45
 msgid "Register"
 msgstr "Inscription"
@@ -122,7 +122,7 @@ msgid "lost-password"
 msgstr "mot-de-passe-perdu"
 
 #: includes/class-happycula-custom-user-pages-activator.php:42
-#: public/partials/happycula-custom-user-pages-login-form.php:48
+#: public/partials/happycula-custom-user-pages-login-form.php:51
 #: public/partials/happycula-custom-user-pages-register-form.php:49
 msgid "Forgot your password?"
 msgstr "Mot de passe oublié?"
@@ -237,6 +237,10 @@ msgstr "Nouveau mot de passe"
 msgid "Confirm your new password"
 msgstr "Confirmer votre nouveau mot de passe"
 
+#: public/partials/happycula-custom-user-pages-edit-profile-form.php:52
+msgid "Update profile"
+msgstr "Mettre à jour le profil"
+
 #: public/partials/happycula-custom-user-pages-logged-in.php:19
 msgid "You are already signed in."
 msgstr "Vous êtes déjà connecté."
@@ -279,7 +283,7 @@ msgstr "Se souvenir de moi"
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: public/partials/happycula-custom-user-pages-login-form.php:35
+#: public/partials/happycula-custom-user-pages-login-form.php:38
 msgid ""
 "You have successfully registered. We have emailed your password to the email "
 "address you provided."
@@ -287,13 +291,13 @@ msgstr ""
 "Votre inscription est validée. Nous avons envoyé un email contenant votre "
 "mot de passe à l'adresse que vous avez indiquée."
 
-#: public/partials/happycula-custom-user-pages-login-form.php:39
+#: public/partials/happycula-custom-user-pages-login-form.php:42
 msgid "Check your email for a link to reset your password."
 msgstr ""
 "Vérifiez vos emails pour obtenir un lien de réinitialisation de votre mot de "
 "passe."
 
-#: public/partials/happycula-custom-user-pages-login-form.php:43
+#: public/partials/happycula-custom-user-pages-login-form.php:46
 msgid "Your password has been updated."
 msgstr "Votre mot de passe a été mis à jour."
 
