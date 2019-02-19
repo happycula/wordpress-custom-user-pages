@@ -814,11 +814,8 @@ class Happycula_Custom_User_Pages_Public {
 
         if ( ! is_email( $email ) ) {
             $errors->add( 'email', $this->get_error_message( 'email' ) );
-            return $errors;
-        }
-        if ( username_exists( $email ) || email_exists( $email ) ) {
+        } elseif ( username_exists( $email ) || email_exists( $email ) ) {
             $errors->add( 'email_exists', $this->get_error_message( 'email_exists' ) );
-            return $errors;
         }
         $first_name = ucfirst( trim( $first_name ) );
         if ( empty( $first_name ) ) {
@@ -827,6 +824,10 @@ class Happycula_Custom_User_Pages_Public {
         $last_name = ucfirst( trim( $last_name ) );
         if ( empty( $last_name ) ) {
             $errors->add( 'lastname_missing', $this->get_error_message( 'lastname_missing' ) );
+        }
+
+        if ( '' !== $errors->get_error_code() ) {
+            return $errors;
         }
 
         $password  = wp_generate_password( 12, false );
