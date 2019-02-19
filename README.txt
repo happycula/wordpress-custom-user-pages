@@ -46,6 +46,9 @@ Custom emails:
 
 == Changelog ==
 
+= 1.0.3 =
+* Fix french translation.
+
 = 1.0.2 =
 * Redirect after login now works as expected.
 

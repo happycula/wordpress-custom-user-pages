@@ -62,7 +62,7 @@ class Happycula_Custom_User_Pages {
         if ( defined( 'HAPPYCULA_CUSTOM_USER_PAGES_VERSION' ) ) {
             $this->version = HAPPYCULA_CUSTOM_USER_PAGES_VERSION;
         } else {
-            $this->version = '1.0.2';
+            $this->version = '1.0.3';
         }
         if ( defined( 'HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME' ) ) {
             $this->plugin_name = HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME;
