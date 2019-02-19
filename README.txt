@@ -1,5 +1,5 @@
 === Happycula Custom User Pages ===
-Contributors: yann+wordpress@happycula.fr
+Contributors: happycula
 Tags: user, user login, login, custom login, custom user login, registration, custom registration, custom user profile, user profile, user registration, custom user registration
 Requires at least: 5.0
 Tested up to: 5.0.3
@@ -45,6 +45,9 @@ Custom emails:
 1. Settings page
 
 == Changelog ==
+
+= 1.0.1 =
+* Bugfix on registration form: display error when firstname or lastname missing.
 
 = 1.0.0 =
 * First release of the plugin.

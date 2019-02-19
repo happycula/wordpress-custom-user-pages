@@ -37,7 +37,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'HAPPYCULA_CUSTOM_USER_PAGES_VERSION', '1.0.0' );
+define( 'HAPPYCULA_CUSTOM_USER_PAGES_VERSION', '1.0.1' );
 define( 'HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME', 'happycula-custom-user-pages' );
 define( 'HAPPYCULA_CUSTOM_USER_PAGES_DOMAIN', 'happycula-custom-user-pages' );
 
