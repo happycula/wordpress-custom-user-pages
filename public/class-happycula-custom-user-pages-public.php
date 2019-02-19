@@ -143,14 +143,14 @@ class Happycula_Custom_User_Pages_Public {
             return home_url();
         }
 
-        $redirect_url = $this->get_option_page_url( 'after-login' );
-
-        if ( user_can( $user, 'edit_posts' ) ) {
-            if ( '' === $requested_redirect_to ) {
+        if ( '' === $requested_redirect_to ) {
+            if ( user_can( $user, 'edit_posts' ) ) {
                 $redirect_url = admin_url();
             } else {
-                $redirect_url = $redirect_to;
+                $redirect_url = $this->get_option_page_url( 'after-login' );
             }
+        } else {
+            $redirect_url = $redirect_to;
         }
 
         return wp_validate_redirect( $redirect_url, home_url() );

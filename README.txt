@@ -46,6 +46,9 @@ Custom emails:
 
 == Changelog ==
 
+= 1.0.2 =
+* Redirect after login now works as expected.
+
 = 1.0.1 =
 * Bugfix on registration form: display error when firstname or lastname missing.
 

@@ -3,7 +3,7 @@
  * Plugin Name: Happycula Custom User Pages
  * Plugin URI:  https://dev.happycula.fr/wordpress/custom-user-pages
  * Description: Custom user pages (login, registration, profile…)
- * Version:     1.0.0
+ * Version:     1.0.2
  * Author:      Happycula
  * Author URI:  https://happycula.fr
  * Text Domain: happycula-custom-user-pages
@@ -37,7 +37,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'HAPPYCULA_CUSTOM_USER_PAGES_VERSION', '1.0.1' );
+define( 'HAPPYCULA_CUSTOM_USER_PAGES_VERSION', '1.0.2' );
 define( 'HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME', 'happycula-custom-user-pages' );
 define( 'HAPPYCULA_CUSTOM_USER_PAGES_DOMAIN', 'happycula-custom-user-pages' );
 

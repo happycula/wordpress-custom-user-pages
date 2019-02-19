@@ -20,6 +20,9 @@ $args = array(
     'label_remember' => __( 'Remember me', 'happycula-custom-user-pages' ),
     'label_log_in'   => __( 'Sign in', 'happycula-custom-user-pages' ),
 );
+if ( isset( $vars['redirect'] ) && '' !== $vars['redirect'] ) {
+    $args['redirect'] = $vars['redirect'];
+}
 ?>
 
 <div class="hcup_container">
