@@ -2,7 +2,7 @@
 Contributors: happycula
 Tags: user, user login, login, custom login, custom user login, registration, custom registration, custom user profile, user profile, user registration, custom user registration
 Requires at least: 5.0
-Tested up to: 5.0.3
+Tested up to: 5.1
 Stable tag: trunk
 Requires PHP: 7.0
 License: GPLv2 or later
