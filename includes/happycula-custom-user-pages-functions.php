@@ -26,3 +26,29 @@ function hcup_page_url( $page, $relative = false ) {
 
     return $url;
 }
+
+/**
+ * Is the given page one of our custom pages.
+ *
+ * @since  1.0.4
+ * @param  int $page_id The page ID.
+ * @return boolean
+ */
+function hcup_is_custom_page( $page_id ) {
+    $pages = array(
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-login' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-after-login' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-after-logout' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-register' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-lostpassword' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-resetpassword' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-editprofile' ),
+        get_option( HAPPYCULA_CUSTOM_USER_PAGES_PLUGIN_NAME . '-pages-account' ),
+    );
+
+    if ( in_array( $page_id, $pages ) ) {
+        return true;
+    }
+
+    return false;
+}

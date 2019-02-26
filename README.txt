@@ -46,6 +46,9 @@ Custom emails:
 
 == Changelog ==
 
+= 1.0.4 =
+* New function `hcup_is_custom_page`.
+
 = 1.0.3 =
 * Fix french translation.
 
